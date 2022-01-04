@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/stream.css">
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="/assets/img/logo.png" alt="logo"></div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search" onchange="searchPages()"
+                placeholder="Search for Movies,Events,Sports,and Activities">
+        </div>
+        <div class="state">
+            <select>
+                <option>Chennai</option>
+                <option>Benglore</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+            </select>
+        </div>
+        <button class="sign"><a href="/pages/register.html"> sign in</a></button>
+        <div id="sidebar" class="sidebar">
+            <i id="menu" onclick="showNav()" class="fas fa-bars"></i>
+            <ul class="sideText">
+                <li class="hey">Hey!</li>
+                <ul class="loginRegister">
+                    <img src="/assets/img/rewards_login.webp" alt="reward img">
+                    <p>Unlock special offers &<br>
+                        great benefits </p>
+                    <button class="register"><a href="/pages/sign.html">Login/Register</a></button>
+
+                </ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Reward</a></li>
+                <li><a href="#">BookASmile</a></li>
+                <li><a href="#">Help & Support</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="secondMenu" id="secondMenu">
+        <ul>
+            <li><a href="/index.html">Movies</a></li>
+            <li><a class="stream" href="/pages/stream.html">Stream</a></li>
+            <li><a class="btns" href="/pages/events.html">Events</a></li>
+            <li><a class="btns" href="/pages/plays.html">Plays</a></li>
+            <li><a class="btns" href="/pages/sports.html">Sports</a></li>
+            <li><a class="btns" href="/pages/activities.html">Activities</a></li>
+            <li><a class="btns" href="/pages/buzz.html">Buzz</a></li>
+            <li><a class="btns" href="/pages/corporates.html">Corporates</a></li>
+            <li><a class="btns" href="/pages/offers.html">offers</a></li>
+            <li><a class="btns" href="/pages/giftCards.html">Gift Cards</a></li>
+        </ul>
+    </div>
+
+    <!-- slide image------------------------------------------------------------------------------------------------------------------------------------ -->
+
+
+    <img class="streamImage" name="streamImage">
+    <img class="streamImage2" name="streamImage2">
+
+
+    <img src="/assets/img/premiere-chip-tag.webp" alt="premiere-chip-tag" class="premiere">
+
+    <div class="brand">
+        <h2 class="brandNew">Brand New Releases Every Friday</h2>
+        <br>
+        <h2 class="brandEnjoy">Subscribe to Enjoy Our Latest Updates</h2>
+    </div>
+
+    <div class="streams">
+        <div class="sec">
+            <section>
+                <ul>
+                    <li class="list active" data-filter="all">Genres</li>
+                    <li class="list" data-filter="action">Action</li>
+                    <li class="list" data-filter="horror">Horror</li>
+                    <li class="list" data-filter="thriller">Thriller</li>
+                    <li class="list" data-filter="drama">Drama</li>
+                    <li class="list" data-filter="adventure">Adventure</li>
+
+                </ul>
+            </section>
+        </div>
+
+        <div class="movie">
+            <div class="item action"> <a href="/pages/fast&furious.html">
+                <img src="/assets/img/fast-and-furious-9-stream.jpg" alt="f&f9">
+                <h2>Fast and Furious 9</h2></a>
+            </div>
+            <div class="item horror"> <a href="/pages/old.html">
+                <img src="/assets/img/old.webp" alt="old">
+                <h2>Old</h2></a>
+            </div>
+            <div class="item thriller "> <a href="/pages/venom.html">
+                <img src="/assets/img/venom-let-there-be-carnage.webp" alt="Venom: Let There Be Carnage">
+                <h2>Venom: Let There Be Carnage</h2></a>
+
+            </div>
+            <div class="item drama"> <a href="/pages/spidyfar.html">
+                <img src="/assets/img/spider-man-far-from-home.webp" alt="Spider-Man: Far From Home">
+                <h2>Spider-Man: Far From Home</h2></a>
+
+            </div>
+            <div class="item action"><a href="/pages/escapeRoom.html">
+                <img src="/assets/img/escape-room-tournament-of-champions.webp"
+                    alt="Escape Room: Tournament Of Champions">
+                <h2>Escape Room: Tournament Of Champions
+                </h2></a>
+            </div>
+            <div class="item horror"><a href="/pages/conjuring.html">
+                <img src="/assets/img/the-conjuring.jpg" alt="The Conjuring">
+                <h2>The Conjuring</h2></a>
+            </div>
+            <div class="item drama"><a href="/pages/oneForAll.html">
+                <img src="/assets/img/one-for-all.webp" alt="One For All">
+                <h2>One For All</h2></a>
+
+            </div>
+            <div class="item adventure"><a href="/pages/croods.html">
+                <img src="/assets/img/the-croods.webp" alt="the-croods">
+                <h2>The Croods</h2></a>
+
+            </div>
+
+            <div class="item action"><a href="/pages/mightyHeart.html">
+                <img src="/assets/img/a-mighty-heart.webp" alt="A Mighty Heart">
+                <h2>A Mighty Heart</h2></a>
+            </div>
+            <div class="item thriller horror"><a href="/pages/wretched.html">
+                <img src="/assets/img/the-wretched.webp" alt="The Wretched">
+                <h2>The Wretched</h2></a>
+            </div>
+            <div class="item adventure thriller drama "><a href="/pages/matrix.html">
+                <img src="/assets/img/the-matrix-reloaded.webp" alt="The Matrix Reloaded">
+                <h2>The Matrix Reloaded</h2></a>
+
+            </div>
+            <div class="item drama adventure"><a href="/pages/mitchells.html">
+                <img src="/assets/img/the-mitchells-vs-the-machines.webp" alt="The Mitchells vs the Machines">
+                <h2>The Mitchells vs the Machines</h2></a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <footer class="spiderCopyRight">Copyright 2021 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved. <br>The
+        content
+        and images used on this site are copyright protected and copyrights vests with the respective owners.The usage
+        of the content and images on this website is intended to promote the works and no endorsement of the artist
+        shall be implied. Unauthorized use is prohibited and punishable by law.</footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/stream.js"></script>
+
+</body>
+
+</html>

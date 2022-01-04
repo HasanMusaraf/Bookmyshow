@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/corporates.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="/assets/img/logo.png" alt="logo"></div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search" onchange="searchPages()" placeholder="Search for Movies,Events,Sports,and Activities">
+        </div>
+        <div class="state">
+            <select>
+                <option>Chennai</option>
+                <option>Benglore</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+            </select>
+        </div>
+        <button class="sign"><a href="/pages/register.html"> sign in</a></button>
+        <div id="sidebar" class="sidebar">
+            <i id="menu" onclick="showNav()" class="fas fa-bars"></i>
+            <ul class="sideText">
+                <li class="hey">Hey!</li>
+                <ul class="loginRegister">
+                    <img src="/assets/img/rewards_login.webp" alt="reward img">
+                    <p>Unlock special offers &<br>
+                        great benefits </p>
+                    <button class="register"><a href="/pages/sign.html">Login/Register</a></button>
+
+                </ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Reward</a></li>
+                <li><a href="#">BookASmile</a></li>
+                <li><a href="#">Help & Support</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="secondMenu" id="secondMenu">
+        <ul>
+            <li><a  href="/index.html">Movies</a></li>
+            <li><a  href="/pages/stream.html">Stream</a></li>
+            <li><a  href="/pages/events.html">Events</a></li>
+            <li><a  href="/pages/plays.html">Plays</a></li>
+            <li><a  href="/pages/sports.html">Sports</a></li>
+            <li><a class="btns" href="/pages/activities.html">Activities</a></li>
+            <li><a class="btns" href="/pages/buzz.html">Buzz</a></li>
+            <li><a class="stream" href="/pages/corporates.html">Corporates</a></li>
+            <li><a  href="/pages/offers.html">offers</a></li>
+            <li><a  href="/pages/giftCards.html">Gift Cards</a></li>
+        </ul>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <footer class="spiderCopyRight">Copyright 2021 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved. <br>The
+        content
+        and images used on this site are copyright protected and copyrights vests with the respective owners.The usage
+        of the content and images on this website is intended to promote the works and no endorsement of the artist
+        shall be implied. Unauthorized use is prohibited and punishable by law.</footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/stream.js"></script>
+
+</body>
+
+</html>

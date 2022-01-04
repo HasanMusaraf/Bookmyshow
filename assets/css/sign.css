@@ -1,0 +1,217 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #A9D9C3;
+
+}
+
+
+/* sign side */
+
+.sign-box {
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 13% auto;
+    box-shadow: 2px 2px 2px 4px whitesmoke;
+    overflow: hidden;
+}
+
+#mail {
+    font-size: 32px;
+    color: #777e88;
+}
+
+#ph {
+    font-size: 32px;
+    color: #777e88;
+    position: relative;
+    bottom: 3px;
+
+}
+
+#email {
+    padding-left: 10px;
+    position: relative;
+    bottom: 2px;
+    font-size: 25px;
+    font-weight: lighter;
+    border-style: none;
+    background: transparent;
+    color: #777e88;
+    cursor: pointer;
+
+
+
+
+}
+
+#phone {
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: lighter;
+    border-style: none;
+    background: transparent;
+    color: #777e88;
+    position: relative;
+    bottom: 4px;
+
+
+}
+
+.mail {
+    position: relative;
+    left: 9.5vh;
+    top: 4.3vh;
+}
+
+.ph {
+    position: relative;
+    bottom: 3vh;
+    left: 31vh;
+    top: 1vh;
+
+}
+
+.button_line {
+    width: 1px;
+    height: 22px;
+    background-color: #ededed;
+    position: relative;
+    right: 5vh;
+    bottom: 3vh;
+}
+
+.button_line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #ededed;
+    position: relative;
+    right: 31vh;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    font-size: 20px;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+}
+
+.check-box{
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+
+.span{
+color: #777e88;    
+position: relative;
+bottom: 3px;
+}
+
+.forgot a{
+color: #a1c397;
+font-weight: 600;
+position: relative;
+left: 193px;
+bottom: 20px;
+text-decoration: none;
+}
+
+.submit-btn{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;   
+    color: #9cacc6;
+}
+
+.submit-btn:hover{
+    color: green;
+    background: #a1c397;
+}
+
+
+#country{
+position: relative;
+right: 40px;
+border-style: none;
+background: transparent;
+outline-style: none;
+margin-right: 10px;
+font-size: 20px;
+}
+
+#output{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    outline-style: none;
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+
+      
+}
+
+.input {
+    position: relative;
+    top: 5vh;
+    width: 320px;
+    left: 9vh;
+}
+
+.input.active {
+    position: relative;
+    top: 5vh;
+    width: 320px;
+    left: -39vh;
+}
+
+
+
+.input1 {
+    position: relative;
+    bottom: 21.3vh;
+    width: 320px;
+    left: -39vh;
+}
+
+.input1.active {
+    position: relative;
+    bottom: 21.3vh;
+    width: 320px;
+    left: 9vh;
+}
+
+
+.register{
+    position: relative;
+    top: 10px;
+}
+
+.register a{
+    text-decoration: none;
+
+}

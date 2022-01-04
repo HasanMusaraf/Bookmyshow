@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: #333545;
+    display: flex;
+    align-items: center;
+    padding-left: 30vh;
+    height: 80px;
+
+}
+
+.secondMenu {
+    background: #222539;
+    width: 100%;
+    height: 50px;
+}
+
+.logo img {
+    width: 13vh;
+    height: 40px;
+}
+
+.search input {
+    width: 55vh;
+    height: 4vh;
+    border-radius: 1%;
+    padding-left: 45px;
+    border: none;
+}
+
+.state select {
+    border-style: none;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    position: relative;
+    left: 20vh;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.state select option {
+    background: #222539;
+
+}
+
+.sign {
+    height: 25px;
+    width: 7vh;
+    position: relative;
+    left: 23vh;
+    border-radius: 5px;
+    background: #ed5663;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+
+}
+
+.sign a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu {
+    position: absolute;
+    right: 47vh;
+    top: 22px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sidebar {
+    margin-top: -10px;
+    position: fixed;
+    top: 17px;
+    width: 400px;
+    height: 100%;
+    background: white;
+    box-shadow: 0px 1px 0px 1px;
+    right: -400px;
+    transition: .4s;
+}
+
+.sidebar.active {
+    right: -30px;
+}
+
+
+.sidebar ul li {
+    list-style: none;
+    color: #333545;
+    padding: 20px 20px;
+    border-bottom: 1px solid gray;
+    margin-left: -40px;
+
+
+}
+
+.sidebar ul li.hey {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background: #333545;
+    margin-left: -40px;
+    border-bottom: none;
+    color: #fff;
+}
+
+.search i {
+    position: relative;
+    left: 40px;
+    top: 2px;
+
+}
+
+.loginRegister {
+    display: flex;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px;
+    margin-left: -42px;
+
+}
+
+.loginRegister a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.loginRegister img {
+    position: relative;
+    bottom: 5px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.loginRegister p {
+    font-size: 15px;
+    font-weight: 700;
+    display: grid;
+    position: relative;
+    right: 28px;
+    bottom: 3px;
+}
+
+.register {
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    padding: 3px 3px;
+    position: relative;
+    bottom: 3px;
+    right: 10px;
+    background: #ed5663;
+    border-radius: 5px;
+    border: none;
+}
+
+.sideText li a {
+    text-decoration: none;
+    color: #222539;
+}
+
+.secondMenu ul li {
+    display: inline;
+    padding-right: 70px;
+}
+
+.secondMenu ul {
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+.secondMenu ul li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* spider movie-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.spiderMovie .spCover{
+    width: 100%;
+    height: 50vh;
+        
+}
+
+.spider{
+    width: 27vh;
+    height: 40vh;
+    position: relative;
+    bottom: 45vh;
+    left: 28vh;
+    border-radius: 25px;
+}
+
+
+.spiderTitle{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 66vh;
+    left: 61vh;
+    color:rgb(255, 255, 255);
+    width: 500px;
+}
+
+.screenLanguage{
+    position: relative;
+    bottom: 65vh;
+    left: 60vh;
+    width: 550px;
+}
+
+
+.movieLanguage{
+    background: #fff;
+    font-weight: bolder;
+    width: 9vh;
+    height: 2vh;
+    padding:4px 4px;
+    padding-left: 15px;
+    border-radius: 15px;
+
+}
+
+.movieDuration{
+    margin-top: 10px;
+    color: #000;
+    font-weight: bolder;
+
+}
+
+.bookTickets{
+    width: 17vh;
+    height: 4vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    font-size: larger;
+    background: #ed5660;
+    border: 1px solid #ed5663;
+    position: relative;
+    bottom: 64vh;
+    left: 61vh;
+}
+
+.bookTickets:hover{
+    background-color: silver;
+    color: #ed5663;
+}
+
+
+/* movie Cast-------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.aboutSpider p{
+font-size: 20px;
+font-family: sans-serif;
+}
+
+.movieDetails{
+    position: relative;
+    bottom: 58vh;
+    margin-left: 30px;
+}
+
+.aboutSpider h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.allu{
+    position: relative;
+    left: 25px;
+}
+
+.pus{
+    position: relative;
+    right: 7px;
+}
+
+
+.cast h1{
+    margin-top: 20px;
+}
+
+.castOfSpider{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.castOfSpider img{
+    border-radius: 50%;
+    padding-bottom: 10px;
+    margin-right: 70px;
+}
+
+.castOfSpider h2,p{
+}
+
+.castOfSpider h2{
+    margin-bottom: 5px;
+}
+
+/* crew ------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.crewOfSpider{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.crewOfSpider img{
+    border-radius: 50%;
+    padding-bottom: 10px;
+    margin-right: 80px;
+}
+
+
+
+.crewOfSpider h2,p{
+    margin-left: 36px;
+    position: relative;
+    right: 25px;
+}
+
+
+.crewOfSpider h2{
+    margin-bottom: 5px;
+}
+
+/* trailers------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.trailer{
+    height: 200px;
+}
+
+.trailer h1{
+    position: relative;
+    bottom: 55vh;
+    text-align: center;
+    right: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+.trailer .tamil{
+    position: relative;
+    bottom: 51vh;
+    left: 31vh;
+    width: 200px;
+}
+
+
+
+.tamilSpider{
+    position: relative;
+    bottom: 50vh;
+    margin-left: 300px;
+}
+
+
+
+.spiderCopyRight{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    background-color:#333338; 
+    color: rgb(92 90 90);
+    height: 60px;
+    padding-top: 26px;
+}

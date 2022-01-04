@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One For All</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/oneForAll.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="/assets/img/logo.png" alt="logo"></div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search" onchange="searchPages()" placeholder="Search for Movies,Events,Sports,and Activities">
+        </div>
+        <div class="state">
+            <select>
+                <option>Chennai</option>
+                <option>Benglore</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+            </select>
+        </div>
+        <button class="sign"><a href="/pages/register.html"> sign in</a></button>
+        <div id="sidebar" class="sidebar">
+            <i id="menu" onclick="showNav()" class="fas fa-bars"></i>
+            <ul class="sideText">
+                <li class="hey">Hey!</li>
+                <ul class="loginRegister">
+                    <img src="/assets/img/rewards_login.webp" alt="reward img">
+                    <p>Unlock special offers &<br>
+                        great benefits </p>
+                    <button class="register"><a href="/pages/sign.html">Login/Register</a></button>
+
+                </ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Reward</a></li>
+                <li><a href="#">BookASmile</a></li>
+                <li><a href="#">Help & Support</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="secondMenu" id="secondMenu">
+        <ul>
+            <li><a  href="/index.html">Movies</a></li>
+            <li><a  href="/pages/stream.html">Stream</a></li>
+            <li><a  href="/pages/events.html">Events</a></li>
+            <li><a  href="/pages/plays.html">Plays</a></li>
+            <li><a  href="/pages/sports.html">Sports</a></li>
+            <li><a  href="/pages/activities.html">Activities</a></li>
+            <li><a  href="/pages/buzz.html">Buzz</a></li>
+            <li><a  href="/pages/corporates.html">Corporates</a></li>
+            <li><a  href="/pages/offers.html">offers</a></li>
+            <li><a  href="/pages/giftCards.html">Gift Cards</a></li>
+        </ul>
+    </div>
+
+    
+
+    <!-- Spider movie---------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <div class="spiderMovie">
+        <img class="spCover" src="/assets/img/the-wretched-cover.webp" alt="The Wretched">
+        <div>
+            <a>
+                <img class="spider" src="/assets/img/the-wretched.webp" alt="The Wretched">
+            </a>
+        </div>
+        <p class="streaming">Streaming Now</p>
+        <h1 class="spiderTitle">The Wretched
+        </h1>
+        <div class="screenLanguage">
+            <p class="movieLanguage"> 2D - English,2h 35m . Action,Adventure,Sci-Fi . UA </p>
+        </div>
+
+        <button class="bookTickets">Rent ₹69</button>
+        <button class="bookTickets">Buy ₹299</button>
+
+
+    </div>
+
+
+    <div class="movieDetails">
+        <div class="aboutSpider">
+            <h1>About the movie</h1>
+            <p>A defiant teenage boy, struggling with his parents` imminent divorce, faces off with a thousand-year-old
+                witch who is living beneath the skin of and posing as the woman next door.</p>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <div class="cast">
+            <h1>Cast</h1>
+            <div class="castOfSpider">
+                <div>
+                    <img src="/assets/img/john-paul.jpg" alt="John-Paul Howard">
+                    <h2>John-Paul Howard</h2>
+                    <p class="pus">as Ben</p>
+                </div>
+                <div>
+                    <img src="/assets/img/ross-kidder.jpg" alt="Ross Kidder">
+                    <h2>Ross Kidder</h2>
+                    <p>as Officer Guthrie</p>
+                </div>
+                <div>
+                    <img src="/assets/img/piper-curda.jpg" alt="Piper Curda">
+                    <h2 class="allu">Piper Curda</h2>
+                    <p>&nbsp&nbsp&nbsp&nbsp&nbspas Mallory</p>
+                </div>
+                <div>
+                    <img src="/assets/img/jamison-jones.jpg" alt="Jamison Jones">
+                    <h2 class="allu">Jamison Jones</h2>
+                    <p class="pus">as Liam</p>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <hr>
+            <div class="crew">
+                <h1>Crew</h1>
+                <div class="crewOfSpider">
+                    <div>
+                        <img src="/assets/img/brett-pierce.jpg" alt="Brett Pierce">
+                        <h2>Brett Pierce</h2>
+                        <p>Director,Producer</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/drew-t.-pierce.jpg" alt="Drew T. Pierce">
+                        <h2>Drew T. Pierce</h2>
+                        <p>Director</p>
+                    </div>
+                    <div>
+                        <img src="/assets/img/devin-burrows.jpg" alt="Devin Burrows">
+                        <h2>&nbsp&nbsp&nbspDevin Burrows</h2>
+                        <p >&nbsp&nbsp&nbsp&nbsp&nbspMusician</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+    </div>
+
+
+    <div class="trailer">
+        <h1>Trailer</h1>
+        <h2 class="tamil">English Trailer</h2>
+        <div class="tamilSpider">
+            <iframe width="1600" height="805" src="https://www.youtube.com/embed/jEmPD6SEsek"
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="spiderCopyRight">Copyright 2021 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved. <br>The
+        content
+        and images used on this site are copyright protected and copyrights vests with the respective owners.The usage
+        of the content and images on this website is intended to promote the works and no endorsement of the artist
+        shall be implied. Unauthorized use is prohibited and punishable by law.</footer>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/stream.js"></script>
+
+</body>
+
+</html>

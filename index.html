@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body style="background: #f5f5f5;">
+    <div class="navbar">
+        <div class="logo"><img src="/assets/img/logo.png" alt="logo"></div>
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="search" id="search" onchange="searchPages()"
+                placeholder="Search for Movies,Events,Sports,and Activities">
+        </div>
+        <div class="state">
+            <select>
+                <option>Chennai</option>
+                <option>Benglore</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Pune</option>
+            </select>
+        </div>
+        <button class="sign"><a href="/pages/register.html"> sign in</a></button>
+        <div id="sidebar" class="sidebar">
+            <i id="menu" onclick="showNav()" class="fas fa-bars"></i>
+            <ul class="sideText">
+                <li class="hey">Hey!</li>
+                <ul class="loginRegister">
+                    <img src="/assets/img/rewards_login.webp" alt="reward img">
+                    <p>Unlock special offers &<br>
+                        great benefits </p>
+                    <button class="register"><a href="/pages/sign.html">Login/Register</a></button>
+
+                </ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Reward</a></li>
+                <li><a href="#">BookASmile</a></li>
+                <li><a href="#">Help & Support</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="secondMenu" id="secondMenu">
+        <ul>
+            <li><a class="movie" href="/index.html">Movies</a></li>
+            <li><a class="btns" href="/pages/stream.html">Stream</a></li>
+            <li><a class="btns" href="/pages/events.html">Events</a></li>
+            <li><a class="btns" href="/pages/plays.html">Plays</a></li>
+            <li><a class="btns" href="/pages/sports.html">Sports</a></li>
+            <li><a class="btns" href="/pages/activities.html">Activities</a></li>
+            <li><a class="btns" href="/pages/buzz.html">Buzz</a></li>
+            <li><a class="btns" href="/pages/corporates.html">Corporates</a></li>
+            <li><a class="btns" href="/pages/offers.html">offers</a></li>
+            <li><a class="btns" href="/pages/giftCards.html">Gift Cards</a></li>
+        </ul>
+    </div>
+
+    <!-- Movie page -->
+
+    <!-- Image Banner-------------------------------------------------------------------------------------------------- -->
+
+
+    <img class="slide" name="slide">
+
+
+    <!-- filter------------------------------------------------------------------------------------------------------ -->
+
+    <h2 class="filter">Filters</h2>
+        <details class="detail">
+            <summary>
+                Languages
+            </summary>
+            <div class="tamil list1 active1" data-filter="all1">Languages</div>
+            <div class="english list1" data-filter="english1">English</div>
+            <div class="hindi list1" data-filter="hindi1">Hindi</div>
+            <div class="telugu list1" data-filter="telugu1">Telugu</div>
+            <div class="malai list1" data-filter="malayalam1">Malayalam</div>
+            <div class="kannada list1" data-filter="tamil1">Tamil</div>
+        </details>
+
+        <details class="genres">
+            <summary>
+                Genres
+            </summary>
+            <div class="gene">
+                <div class="tamil">Drama</div>
+                <div class="english">Action</div>
+                <div class="hindi">Comedy</div>
+                <div class="telugu">Thriller</div>
+                <div class="malai">Crime</div>
+                <div class="kannada">Romantic</div>
+            </div>
+            <div class="gen">
+                <div class="tamils">Adventure</div>
+                <div class="englishs">Horror</div>
+                <div class="hindis">Sci-Fi</div>
+                <div class="telugus">Fantasy</div>
+                <div class="malais">Animation</div>
+                <div class="kannadas">Sports</div>
+            </div>
+        </details>
+
+
+        <details class="format">
+            <summary>
+                Format
+            </summary>
+            <div class="genes">
+                <div class="tam">Drama</div>
+                <div class="eng">Action</div>
+                <div class="hin">Comedy</div>
+                <div class="tel">Thriller</div>
+            </div>
+        </details>
+
+
+        <!-- Explore upcoming movies---------------------------------------------------------------------------------------------------------- -->
+
+        <h1 class="moviesChennai">Movies In Chennai</h1>
+
+        <div class="explore">
+            <h2>Coming Soon</h2>
+            <p><a href="#">Explore Upcoming Movies<i class="fas fa-chevron-right"></i></a></p>
+        </div>
+
+
+
+        <div class="movieSelection">
+            <div class="item1 english1 hindi1 tamil1 telugu1"><a href="/pages/eternals.html">
+                    <img src="/assets/img/eternels.jpg" alt="eternals">
+                    <h2>Eternals</h2>
+                    <p>UA <span>English,Tamil,Hindi,Telugu</span></p>
+                </a>
+            </div>
+            <div class="item1 tamil1"><a href="/pages/jail.html">
+                    <img src="/assets/img/jail.jpg" alt="jail">
+                    <h2>Jail</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1"><a href="/pages/ikk.html">
+                    <img src="/assets/img/kee.jpg" alt="kee">
+                    <h2>Ikk</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1 malayalam1 hindi1 telugu1"><a href="/pages/kurup.html">
+                    <img src="/assets/img/kurup.jpg" alt="kurup">
+                    <h2>kurup</h2>
+                    <p>UA <span>Tamil,Malayalam,Hindi,Telugu</span></p>
+                </a></div>
+            <div class="item1 tamil1"><a href="/pages/maanadu.html">
+                    <img src="/assets/img/maanadu.jpg" alt="maanadu">
+                    <h2>Maanadu</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1 english1 hindi1 telugu1"><a href="/pages/spider.html">
+                    <img src="/assets/img/spider.webp" alt="spider">
+                    <h2>Spider-Man:No Way Home</h2>
+                    <p>UA <span>Tamil,English,Telugu,Hindi</span></p>
+                </a></div>
+            <!-- ---------------------------------------------------------------------------------------- -->
+            <div class="item1 tamil1"><a href="/pages/antiIndian.html">
+                    <img src="/assets/img/anti.jpg" alt="anti">
+                    <h2>Anti Indian</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1"><a href="/pages/bachelor.html">
+                    <img src="/assets/img/bachelor.jpg" alt="Bachelor">
+                    <h2>Bachelor</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 hindi1"><a href="/pages/chandigarh.html">
+                    <img src="/assets/img/chandigarh.webp" alt="chandigrah">
+                    <h2>Chandigarh Kare Aashiqui</h2>
+                    <p>UA <span>Hindi</span></p>
+                </a></div>
+            <div class="item1 english1"><a href="/pages/clifford.html">
+                    <img src="/assets/img/cliffordBigDog.webp" alt="cliffordBigDog">
+                    <h2>Clifford The Big Red Dog</h2>
+                    <p>UA <span>English</span></p>
+                </a></div>
+            <div class="item1 english1 hindi1"><a href="/pages/dune.html">
+                    <img src="/assets/img/dune.jpg" alt="dune">
+                    <h2>Dune</h2>
+                    <p>UA <span>English,Hindi</span></p>
+                </a></div>
+            <div class="item1 english1"><a href="/pages/encanto.html">
+                    <img src="/assets/img/enchanto.jpg" alt="enchanto">
+                    <h2>Encanto</h2>
+                    <p>UA <span>English</span></p>
+                </a></div>
+
+
+            <!-- --------------------------------------------------------------------------------------------- -->
+
+            <div class="item1 tamil1"><a href="/pages/maraikkayar.html">
+                    <img src="/assets/img/maraikaayar.webp" alt="maraikaayar">
+                    <h2>Maraikkayar: Arabikadalin Singam</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1 malayalam1 telugu1 hindi1 "><a href="/pages/muddy.html">
+                    <img src="/assets/img/muddy.webp" alt="muddy">
+                    <h2>Muddy</h2>
+                    <p>UA <span>Tamil,Telugu,Hindi,Malayalam</span></p>
+                </a></div>
+            <div class="item1 tamil1"><a href="/pages/murungakkai.html">
+                    <img src="/assets/img/murungai.jpg" alt="murungai">
+                    <h2>Murungakkai Chips</h2>
+                    <p>UA <span>Tamil</span></p>
+                </a></div>
+            <div class="item1 tamil1 telugu1 malayalam1"><a href="/pages/pushpa.html">
+                    <img src="/assets/img/pushpa.webp" alt="pushpa">
+                    <h2>Puspha:The Rise-Part 01</h2>
+                    <p>UA <span>Tamil,Telegu,Malayalam</span></p>
+                </a></div>
+            <div class="item1 tamil1 telugu1 hindi1 english1"><a href="/pages/residentEvil.html">
+                    <img src="/assets/img/residentEvil.jpg" alt="ResidentEvil">
+                    <h2>Resident Evil:Welcome To Raccoon City</h2>
+                    <p>UA <span>Tamil,Hindi,English,Telugu</span></p>
+                </a></div>
+            <div class="item1 hindi1"><a href="/pages/sooriyavanshi.html">
+                    <img src="/assets/img/sooriyavansi.jpg" alt="sooriyavansi">
+                    <h2>Sooriyavanshi</h2>
+                    <p>UA <span>Hindi</span></p>
+                </a></div>
+
+        </div>
+
+
+
+
+
+
+        <footer class="spiderCopyRight">Copyright 2021 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved. <br>The
+            content
+            and images used on this site are copyright protected and copyrights vests with the respective owners.The
+            usage
+            of the content and images on this website is intended to promote the works and no endorsement of the artist
+            shall be implied. Unauthorized use is prohibited and punishable by law.</footer>
+
+        <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

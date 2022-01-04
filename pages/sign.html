@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+
+    <link rel="stylesheet" href="/assets/css/sign.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class='sign-box'>
+        <div class="button" id="btn">
+            <div class="mail">
+                <i id="mail" class="far fa-envelope"></i>
+                <input onclick="colorChange(event)" class="email" type="button" value="Email" id="email">
+            </div>
+            <div class="ph">
+                <i id="ph" class="fas fa-mobile-alt"></i>
+                <input onclick="colorChange(event)" type="button" value="Phone" id="phone">
+                <div class="button_line"></div>
+                <div class="button_line1"></div>
+
+
+            </div>
+
+            <form onsubmit="loginEmail()" id="login1" class="input">
+                <input type="text" placeholder="EMAIL" id="emails" required class="input-field"><br>
+                <input type="password" placeholder="PASSWORD" id="passwords"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    class="input-field" minlength="8" required><br>
+                <input type="checkbox" class="check-box"><span class="span">Remember username</span>
+                <p class="forgot"><a href="#">Forgot password ?</a></p>
+                <input class="submit-btn" type="submit" value="login">
+
+                <div class="register">
+                    <p>Don't Have an account? <a href="/pages/register.html">Register Here.</a></p>
+                </div>
+                <div id="message"></div>
+            </form>
+
+            <form onsubmit="loginPhone()" id="login2" class="input1">
+                <input type="tel" id="output" maxlength="10" pattern="[6-9]{1}[0-9]{9}"
+                    title="Phone number with 6-9 and remaing 9 digit with 0-9" required placeholder="Phone">
+                <input type="password" id="password" placeholder="PASSWORD"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    class="input-field" minlength="8" required><br>
+                <input type="checkbox" class="check-box"><span class="span">Remember username</span>
+                <p class="forgot"><a href="#">Forgot password ?</a></p>
+                <input class="submit-btn" type="submit" value="login">
+
+
+                <div class="register">
+                    <p>Don't Have an account? <a href="/pages/register.html">Register Here.</a></p>
+                </div>
+
+                <div id="messages"></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="/assets/js/sign.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="/assets/css/register.css">
+</head>
+
+<body>
+    <form onsubmit="saveData()" id="register_form">
+        <h1>Register</h1>
+        <div id="error_msg"></div>
+        <div>
+            <input type="text" name="username" placeholder="Username" id="username"
+                title="username must contain minimum 4 character" pattern="[A-Za-z]{3,}" required>
+            <span></span>
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Email" id="email" required>
+            <span></span>
+        </div>
+        <div>
+            <input type="tel" name="phone" placeholder="ph.No" pattern="[6-9]{1}[0-9]{9}" 
+            title="Phone number with 6-9 and remaing 9 digit with 0-9" maxlength="10" id="phone" required>
+            <span></span>
+        </div>
+
+        <div>
+            <input type="password" name="password" placeholder="Password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" minlength="8" required>
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Confirm Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="confirmPassword" minlength="8"
+                required>
+        </div>
+
+        <div>
+            <button type="submit" name="register" id="reg_btn">Register</button>
+        </div>
+        <div>
+            <button type="reset" style="background:red" name="reset" id="reg_btns">Reset</button>
+        </div>
+        <div class="login">
+            <p>Have an account? <a href="/pages/sign.html">Login Here.</a></p>
+        </div>
+
+
+    </form>
+    <div>
+        <input class="showPassword" type="checkbox" onclick="checkBox()" id="showPassword">
+
+    </div>
+    <summary class="hide">show Password</p>
+
+        <script src="/assets/js/register.js"></script>
+</body>
+
+</html>
